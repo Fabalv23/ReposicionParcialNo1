@@ -6,7 +6,7 @@
  */
 
 #include "ListaCircular.h"
-#include "nodo.cpp"
+
 
 
 template<typename T>

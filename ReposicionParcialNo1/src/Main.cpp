@@ -10,11 +10,11 @@
 #include "ListaEnlazada.cpp"
 #include "Sorteo.h"
 #include "Nodo.h"
-
+#include "ListaCircular.h"
+#include "ListaCircular.cpp"
 
 using namespace std;
-/*#include "ListaCircular.h"
-#include "ListaCircular.cpp"*/
+
 
 //Funcion Reemplazar de Problema No 2
 
@@ -102,7 +102,8 @@ int main(){
 
 	//Implementacion Lista Enlazada
 
-	/*ListaEnlazada<int> prueba;
+	cout<<"Problema 1 Lista Enlazada y Lista Normal"<<endl;
+	ListaEnlazada<int> prueba;
 	prueba.insertar_ultimo(1000);
 	prueba.insertar_inicio(1);
 	prueba.insertar_inicio(15);
@@ -110,11 +111,12 @@ int main(){
 	prueba.insertar_ultimo(100);
 	prueba.imprimir();
 	cout<<prueba.eliminar_primero()<<endl;
-	prueba.imprimir();*/
-
+	prueba.imprimir();
+	cout<<" "<<endl;
 	//Implementacion Lista Circular
 
-	/*ListaCircular<int> circulo;
+	cout<<"Problema 1 Lista Circular"<<endl;
+	ListaCircular<int> circulo;
 
 	circulo.insertar_inicio(15);
 	circulo.insertar_inicio(100);
@@ -123,32 +125,34 @@ int main(){
 	circulo.insertar_inicio(500);
 	circulo.imprimir();
 	cout<<circulo.eliminar_primero()<<endl;
-	circulo.imprimir();*/
-
+	circulo.imprimir();
+	cout<<" "<<endl;
 	//Implementacion de Pila
-
-	/*Pila<int> temp;
+	cout<<"Problema 1 Pila"<<endl;
+	Pila<int> temp;
 	temp.push(15);
 	temp.push(25);
 	temp.imprimir();
-	temp.pop();
-	temp.imprimir();*/
-
+	temp.imprimir();
+	cout<<" "<<endl;
 	//Implementacion de Cola
-	/*Cola<int> prueba2;
+	cout<<"Problema 1 Cola"<<endl;
+	Cola<int> prueba2;
 	prueba2.encolar(15);
 	prueba2.encolar(100);
 	prueba2.imprimir();
 	prueba2.desencolar();
-	prueba2.imprimir();*/
-
+	prueba2.imprimir();
+	cout<< " "<<endl;
 
 	//Llamada a Funcion de Problema 2
-	//reemplazar(temp,45,25).imprimir();
-
+	cout<<"Problema 2 Funcion reemplazar"<<endl;
+	reemplazar(temp,45,25).imprimir();
+	cout<<" " <<endl;
 
 	//Siguientes lineas para usar la funcion reemplazar del problema 3
-/*	ListaEnlazada<int> ordenar2;
+	cout<<"Problema 3 Funcion ordenar"<<endl;
+	ListaEnlazada<int> ordenar2;
 	ordenar2.insertar_inicio(33);
 	ordenar2.insertar_ultimo(1);
 	ordenar2.insertar_ultimo(27);
@@ -159,15 +163,18 @@ int main(){
 	ordenar1.insertar_ultimo(60);
 	ordenar1.insertar_ultimo(6);
 	ordenar1.imprimir();
-	mezclar(ordenar2,ordenar1).imprimir();*/
+	mezclar(ordenar2,ordenar1).imprimir();
+	cout<<" "<<endl;
 
 
 	//Problema NO 5  sorte uno por uno y todos
-/*	Sorteo sor1;
+	cout<<"Problema 5"<<endl;
+	Sorteo sor1;
 	cout<<"Sortear uno por uno"<<endl;
 	sor1.sortearuno();			//funcion sortear uno
 	cout<<" "<<endl;
 	cout<<"Sortear todos"<<endl;
 	sor1.sorteartodos();		//funcion de sortear todos de uno*/
+	cout<<" "<<endl;
 
 };

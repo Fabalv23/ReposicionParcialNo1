@@ -20,7 +20,7 @@ head = NULL;
 template<typename T>
 
 Pila<T>::Pila(){
-tamanio=NULL;
+tamanio=0;
 }
 
 template<typename T>
