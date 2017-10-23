@@ -6,9 +6,9 @@
  */
 
 #include "Main.h"
-
 #include "ListaEnlazada.h"
 #include "ListaEnlazada.cpp"
+#include "Sorteo.h"
 #include "Nodo.h"
 
 
@@ -147,19 +147,27 @@ int main(){
 	//reemplazar(temp,45,25).imprimir();
 
 
-	/*ListaEnlazada<int> ordenar2;
+	//Siguientes lineas para usar la funcion reemplazar del problema 3
+/*	ListaEnlazada<int> ordenar2;
 	ordenar2.insertar_inicio(33);
 	ordenar2.insertar_ultimo(1);
 	ordenar2.insertar_ultimo(27);
 	ordenar2.imprimir();
 
-
 	ListaEnlazada<int> ordenar1;
 	ordenar1.insertar_inicio(44);
 	ordenar1.insertar_ultimo(60);
 	ordenar1.insertar_ultimo(6);
-
 	ordenar1.imprimir();
-
 	mezclar(ordenar2,ordenar1).imprimir();*/
+
+
+	//Problema NO 5  sorte uno por uno y todos
+/*	Sorteo sor1;
+	cout<<"Sortear uno por uno"<<endl;
+	sor1.sortearuno();			//funcion sortear uno
+	cout<<" "<<endl;
+	cout<<"Sortear todos"<<endl;
+	sor1.sorteartodos();		//funcion de sortear todos de uno*/
+
 };

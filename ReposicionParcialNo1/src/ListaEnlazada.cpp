@@ -26,7 +26,7 @@ tamanio=NULL;
 template<typename T>
 
 Cola<T>::Cola(){
-tamanio=NULL;
+tamanio=0;
 }
 
 
